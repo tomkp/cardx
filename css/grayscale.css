@@ -264,9 +264,14 @@ a:focus {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
-    background-color: #000;
+
+    color: #000;
+    background: #FDD209;
+
+    /*color: #fff;*/
+    /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
+    /*background-color: #000;*/
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -305,17 +310,28 @@ a:focus {
 }
 
 .btn-default {
+    /*
     border: 1px solid #42dca3;
     color: #42dca3;
+    */
+    border: 1px solid #38322C ;
+    color: #38322C ;
+
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
+    /*
     border: 1px solid #42dca3;
-    outline: 0;
-    color: #000;
     background-color: #42dca3;
+    color: #000;
+    */
+    border: 1px solid #38322C;
+    background-color: #38322C;
+    color: #fff;
+
+    outline: 0;
 }
 
 ul.banner-social-buttons {
