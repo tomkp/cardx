@@ -148,8 +148,27 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    /*background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;*/
+    /*background-color: #FDD209;*/
+
+    background: rgba(25,201,240,1);
+    background: -moz-linear-gradient(top, rgba(25,201,240,1) 0%, rgba(14,204,246,1) 0%, rgba(132,144,171,1) 0%, rgba(91,211,241,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(25,201,240,1) 0%, rgba(14,204,246,1) 0%, rgba(132,144,171,1) 0%, rgba(91,211,241,1) 100%);
+    background: -o-linear-gradient(top, rgba(25,201,240,1) 0%, rgba(14,204,246,1) 0%, rgba(132,144,171,1) 0%, rgba(91,211,241,1) 100%);
+    background: -ms-linear-gradient(top, rgba(25,201,240,1) 0%, rgba(14,204,246,1) 0%, rgba(132,144,171,1) 0%, rgba(91,211,241,1) 100%);
+    background: linear-gradient(to bottom, rgba(25,201,240,1) 0%, rgba(14,204,246,1) 0%, rgba(132,144,171,1) 0%, rgba(91,211,241,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19c9f0', endColorstr='#5bd3f1', GradientType=0 );
+
+
+    /*background: rgba(153,160,179,1);
+    background: -moz-linear-gradient(-45deg, rgba(153,160,179,1) 0%, rgba(91,211,241,1) 0%, rgba(132,144,171,1) 100%);
+    background: -webkit-linear-gradient(-45deg, rgba(153,160,179,1) 0%, rgba(91,211,241,1) 0%, rgba(132,144,171,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(153,160,179,1) 0%, rgba(91,211,241,1) 0%, rgba(132,144,171,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(153,160,179,1) 0%, rgba(91,211,241,1) 0%, rgba(132,144,171,1) 100%);
+    background: linear-gradient(135deg, rgba(153,160,179,1) 0%, rgba(91,211,241,1) 0%, rgba(132,144,171,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99a0b3', endColorstr='#8490ab', GradientType=1 );
+*/
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -163,6 +182,7 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    margin-top: 5rem;
 }
 
 .intro .intro-body .intro-text {
@@ -267,7 +287,8 @@ a:focus {
     padding: 50px 0;
 
     color: #000;
-    background: #FDD209;
+    /*background: #FDD209;*/
+    background: #8490AB;
 
     /*color: #fff;*/
     /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
