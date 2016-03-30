@@ -1,0 +1,21 @@
+{
+  "name": "cardx",
+  "version": "1.0.0",
+  "scripts": {
+    "publish": "surge public card-explorer.surge.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkp/cardx.git"
+  },
+  "keywords": [],
+  "author": "tom@tomkp.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomkp/cardx/issues"
+  },
+  "homepage": "https://github.com/tomkp/cardx#readme",
+  "devDependencies": {
+    "surge": "^0.17.7"
+  }
+}
