@@ -59,7 +59,11 @@ a:focus {
 
 .light {
     font-weight: 100;
+
+    font-family: "Lora", georgia, serif;
+    text-transform: none;
     font-style: italic;
+
 }
 
 .navbar-custom {
