@@ -2,7 +2,7 @@
   "name": "cardx",
   "version": "1.0.0",
   "scripts": {
-    "deploy": "surge public card-explorer.surge.sh"
+    "deploy": "surge public card-spy.surge.sh"
   },
   "repository": {
     "type": "git",
